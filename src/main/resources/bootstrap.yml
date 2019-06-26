@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: application-service-producer-nacos
+  cloud:
+    nacos:
+      config:
+        # \u914D\u7F6E\u6587\u4EF6\u683C\u5F0F
+        file-extension: yml
+        # \u914D\u7F6E\u4E2D\u5FC3url
+        server-addr: 10.0.8.250:8848
+        # \u547D\u540D\u7A7A\u95F4
+        namespace: 181e91ab-620f-42ad-aa92-51b97388f79a
+      discovery:
+        #Nacos Server \u5730\u5740
+        server-addr: 10.0.8.250:8848
+        # namespace 配置ID和名字都不起作用，走默认public的服务
+        namespace: 181e91ab-620f-42ad-aa92-51b97388f79a
