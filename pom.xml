@@ -22,7 +22,7 @@
         <spring-cloud-alibaba-dependencies.version>0.2.1.RELEASE</spring-cloud-alibaba-dependencies.version>
         <spring-cloud-alibaba-seata.version>0.9.0.RELEASE</spring-cloud-alibaba-seata.version>
         <seata.version>0.6.1</seata.version>
-        <nacos.version>1.0.1</nacos.version>
+        <nacos.version>2.0.4</nacos.version>
         <txlcn-tc.version>5.0.2.RELEASE</txlcn-tc.version>
 
     </properties>
